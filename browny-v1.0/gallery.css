@@ -1,0 +1,77 @@
+header, .gallery, .call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #000;  /* Yellow text for headers */
+    font-size: 28px;
+    font-weight:200;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gallery .image-container img {
+    width:500px;
+    height: 400px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+}
+.call-to-action h2, p{
+    text-align:center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.call-to-action{
+    background-color: #f5f5f5;
+}
+section h2{
+    color:#000;
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 25px;
+}
+section p{
+   font-size: 16px;
+   margin-left: 250px;
+   margin-right: 250px;
+}
+.call-to-action button {
+    background-color: #000;  /* Yellow background for button */
+    color: #fff;  /* Black text for button */
+    padding: 10px 40px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 25px;
+}
+
+.call-to-action button:hover {
+    background-color: #000;  /* Darken yellow on hover */
+}
+
+/*..............................................................*/
+/*Welcome Hero Start*/
+.hero {
+    background-image: url('assets/webphotos/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg');  /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 46px;
+    margin-top: 150%;
+    color: #fff;
+}
+
+/*Welcome Hero End*/
+
